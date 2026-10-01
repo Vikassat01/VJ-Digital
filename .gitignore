@@ -1,0 +1,44 @@
+# VJ Digital - Git Ignore File
+
+# Sensitive configuration files
+includes/config.php
+
+# Database files
+*.sql
+database/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Upload directories (if any)
+uploads/
+assets/uploads/
+
+# Node modules (if using npm)
+node_modules/
+
+# Composer (if using composer)
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.production
